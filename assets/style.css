@@ -467,6 +467,11 @@ li {
 .logo {
   height: calc(var(--size-md));
 }
+@media (min-width: 1024px) {
+  .logo {
+    height: calc(var(--size-lg));
+  }
+}
 
 .logos {
   display: flex;
