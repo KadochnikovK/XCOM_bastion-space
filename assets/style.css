@@ -281,7 +281,7 @@ li {
 .schedule__list {
   list-style: none;
   counter-reset: number-counter;
-  padding-left: 0;
+  padding-left: 10vw;
 }
 .schedule__item {
   counter-increment: number-counter;
